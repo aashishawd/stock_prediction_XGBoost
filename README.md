@@ -67,23 +67,3 @@ from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 !pip install stldecompose
 from stldecompose import decompose
 ```
-## Results
-
-You can find the presentation on [YouTube](https://youtu.be/1T0iXG8ISNc) </br>
-If you wish to view the interactive plots, check out this project on [IBM Watson Studio](https://eu-gb.dataplatform.cloud.ibm.com/analytics/notebooks/v2/d9a1b2ae-b1bb-410e-aad9-14e38d2b3475/view?access_token=33f0de192be5b1c9dcd525d9e5a38270bfa27d42186fd4740dbcb905d91a1564)
-
-1. Decomposition : Barring recent stock market changes because of the CoVID-19 pandemic, we observe that Sensex seems to have a strong seasonality and limited noice/residulaity. In simpler words, this means that stocks markets behave in a predicatable manner over the long term.
-
-![Decomposition](https://github.com/Akshat2430/Stock-Market-Analysis-And-Price-Prediction/blob/main/images/Decomposition.png)
-
-2. Feature Importance: Of the listed technical indicators, 9 day Exponential Moving Average and Relative Strength Index are the most important ones.
-
-![Feature Importance](https://github.com/Akshat2430/Stock-Market-Analysis-And-Price-Prediction/blob/main/images/Feature%20Importance.png)
-
-3. LSTM Predictions: The LSTM model does a really good job of predicting future market trends, due to the high seasonality and predictable noise of Sensex.
-
-![LSTM Predictions](https://github.com/Akshat2430/Stock-Market-Analysis-And-Price-Prediction/blob/main/images/LSTM.png)
-
-## Author
-
-Akshat Kharbanda is a BITS Pilani, KK Birla Goa Campus Student majoring in Electronics and Communication Engineering. Feel free to connect on [LinkedIn](https://www.linkedin.com/in/akshat-kharbanda-b91986148/)!
